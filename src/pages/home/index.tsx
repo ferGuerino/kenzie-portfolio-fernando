@@ -7,6 +7,7 @@ import { Button } from "@/styles/Buttons";
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
 import { Contacts } from "@/components/Contacts";
+import { AboutMe } from "@/components/AboutMe";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -29,7 +30,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio-fernando`;
 
   return (
     <main id="home">
@@ -86,7 +87,8 @@ export const Home = (): JSX.Element => {
             </StackCards>
           </HeaderContent>
         </Container>
-      </Header>
+      </Header>      
+      <AboutMe />
       <ProjectsArea id="projects">
         <Container>
           <ProjectAreaWrapperColumns>
