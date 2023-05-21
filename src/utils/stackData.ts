@@ -1,5 +1,5 @@
 
-import {TbBrandDjango} from "react-icons/tb";
+
 import { SiPostgresql, SiTypescript, SiDjango } from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {  

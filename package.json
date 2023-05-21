@@ -14,7 +14,8 @@
     "react-dom": "^18.0.0",
     "react-icons": "^4.4.0",
     "styled-components": "^6.0.0-rc.1",
-    "use-media": "^1.4.0"
+    "use-media": "^1.4.0",
+    "vercel": "^29.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
