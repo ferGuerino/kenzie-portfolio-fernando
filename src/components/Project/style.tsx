@@ -2,6 +2,7 @@ import { styled } from "@/styles/stitches.config";
 import { Flex } from "@/styles/Global";
 import { Text } from "@/styles/Text";
 
+
 export const ProjectStack = styled(Flex, {
   margin: "1.25rem 0 1.25rem 0",
   "@mobileLittle": {
@@ -78,4 +79,32 @@ export const Project = styled("article", {
       },
     },
   },
+});
+
+
+export const ProjectFrontLinks = styled("a", {
+  fontSize: "1rem",
+  color: "$grey2",
+  fontWeight: "500",
+  marginRight: "$2",
+  display: "flex",
+  alignItems: "center",
+  lineHeight: "2",
+
+  "&:hover": {
+    color: "$grey5",
+  },
+
+  [`& svg`]: {
+    marginRight: "$1",
+  },
+});
+
+export const ProjectTitleLinks = styled("h2", {
+  fontSize: "1.5rem",
+  color: "$grey5",
+});
+
+export const ProjectSectionLinks = styled("section", {
+  display: "block"
 });

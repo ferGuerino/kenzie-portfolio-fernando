@@ -26,6 +26,9 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
+  ProjectFrontLinks,
+  ProjectTitleLinks,
+  ProjectSectionLinks
 } from "./style";
 
 export const Home = (): JSX.Element => {
@@ -104,8 +107,16 @@ export const Home = (): JSX.Element => {
               </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
-              <Project />
+              <Project />              
             </ProjectsAreaContent>
+            <ProjectSectionLinks >
+                <ProjectTitleLinks >Frontend Deployes:</ProjectTitleLinks><br></br>
+                <div className="links">
+                <ProjectFrontLinks target="_blank" href="https://kenzieburger-flame.vercel.app/">frontend-projeto-burger-fernando</ProjectFrontLinks>
+                  <ProjectFrontLinks target="_blank" href="https://entrega-kenziehub-zeta.vercel.app/">frontend-cadastro-usuario-fernando</ProjectFrontLinks>                  
+                  <ProjectFrontLinks target="_blank" href="https://nu-kenzie-mauve.vercel.app/">frontend-controle-de-gastos-fernando</ProjectFrontLinks>
+                </div>
+              </ProjectSectionLinks>
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>

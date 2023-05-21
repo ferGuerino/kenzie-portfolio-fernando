@@ -4,7 +4,7 @@ import {
   ProjectStack,
   ProjectStackTech,
   ProjectLink,
-  ProjectLinks,
+  ProjectLinks,  
 } from "./style";
 
 import { Text } from "@/styles/Text";
@@ -90,7 +90,7 @@ export const Project = (): JSX.Element => {
               )}
             </ProjectLinks>
           </ProjectWrapper>
-        ))}
+        ))}     
     </>
   );
 };
